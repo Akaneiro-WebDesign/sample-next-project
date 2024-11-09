@@ -30,13 +30,18 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
+            <div className="relative flex place-items-center before:absolute before:h-[300px] ">
+              <Image
+              className="relative dark:drop-shadow-[0_0_0.3rem#ffffff70] dark:invert"
+              src="/next.svg"
+              alt="Next.js Logo"
+              width={180}
+              height={37}
+              priority
+              />
+            Hello world
+            </div>
+
             Deploy now
           </a>
           <a
